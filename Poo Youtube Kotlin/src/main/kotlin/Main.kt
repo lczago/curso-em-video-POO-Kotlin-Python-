@@ -1,11 +1,11 @@
 fun main() {
-    //Objeto Gafanhoto
+    //Objeto Gafanhoto(parametros necessários)
     val g = mutableListOf<Gafanhoto>()
-    g.add(Gafanhoto("Leozin", "Leonardo", 24, "m"))
-    g.add(Gafanhoto("Nc8", "Nick", 12, "m"))
-    //Objeto Video
+    g.add(Gafanhoto())
+    g.add(Gafanhoto())
+    //Objeto Video(parametros necessários)
     val v = mutableListOf<Video>()
-    v.add(Video("A volta dos que n foram"))
+    v.add(Video())
     //Ojbeto Assistir
     val assis = mutableListOf<Assistir>()
     assis.add(Assistir(g[0], v[0]))
